@@ -3,6 +3,6 @@ Por enquanto o HTML ta montado em estruturas,as coisa aleatorias escritas são p
 # Sobre o CSS 
 Somente as margens sendo zeradas para facilitar na hora de mexer na centralização
 #Lista de intes obirgatorios
--[]`Uma foto
+-[]Uma foto
 -[] Um titulo de  Primeiro nivel
 -
