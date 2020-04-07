@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
 }
+/*a barra de lado*/
+::-webkit-scrollbar{
+    width:10px;
+}
+/*esse e o trilho*/
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+/*os botoes q fica emcima*/
+::-webkit-scrollbar-button{
+    background-color: #bdb3a6c2;
+}
+/*O trem*/
+::-webkit-scrollbar-thumb{
+
+    background-color:#bfbdbd;
+}
 body{
     background-color: #efe8dfc2;
 }
