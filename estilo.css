@@ -2,3 +2,96 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #efe8dfc2;
+}
+footer,header{
+    padding: 15px;
+    }
+    /*Class responsavel por mexer no tamnho das divs*/
+.definirTamanho{
+    height: 48em;
+    padding: 3em;
+}
+/*Parte responsavel por mexer em todo o menu*/
+#menu ul{
+    position: relative;
+    /*top: 33em;*/
+    top: 22em;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+    font-size: 21px;
+}
+#menu a{
+        text-decoration: none;
+}
+#menu h1{
+    font-size: 5em;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    top: 1em;
+}
+#menu h2{
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    top: 8em;
+}
+header{
+    background-color: lightgrey;
+    height: 48em;
+}
+/*Css do corpo da aplicaçõo*/
+p{
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    left: 1em;
+}
+h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 2.5em;
+    position: relative;
+    top: -1em;
+}
+#sobre img{
+    float: left;
+    width: 430px;
+}
+#musica{
+    border:solid 1px;
+    float: left;
+    width: 35%;
+    padding: 30px;
+
+}
+#series{
+    float: right;
+    border:solid 1px;
+    width: 35%;
+    padding: 30px;
+}
+#favoritos{
+    clear: both;
+    background-color: lightgrey;
+}
+/*Mexendo com o footer*/
+footer{
+    background-color: lightgrey;
+    
+}
+#contatos img {
+    padding: 5px;
+    text-align: center;
+    text-align: center;
+    position: relative;
+    left: 43%;
+    top: -3EM;
+}
