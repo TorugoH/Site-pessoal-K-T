@@ -7,6 +7,6 @@ Somente as margens sendo zeradas para facilitar na hora de mexer na centralizaç
 - [x] Um titulo de  Primeiro nivel
 - [ ] Uma paragrafo ou dois falando sobre vc e deve ter a tag strong em algum lugar
 - [ ] Colocar uma cor de fundo na pagina
-- [ ] Colocar margem esquerda e direira na pagina
+- [ ] Colocar margem esquerda e direita na pagina
 - [x] Centraliza o titulo
 - [x] Estrutura basica do HTML
