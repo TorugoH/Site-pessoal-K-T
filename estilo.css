@@ -21,6 +21,8 @@
 }
 body{
     background-color: #efe8dfc2;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 footer,header{
     padding: 15px;
@@ -32,33 +34,40 @@ footer,header{
 }
 /*Parte responsavel por mexer em todo o menu*/
 #menu ul{
-    position: relative;
-    /*top: 33em;*/
-    top: 22em;
+    top: 0em;
+    position: fixed;
     text-align: center;
     padding: 10px;
+    height: 3em;
+    width: 100%;
+    background: #f0f8ff52;
+    left: 0;
 }
 
 #menu li{
     display: inline;
-    padding: 20px;
-    font-size: 21px;
+    
 }
 #menu a{
         text-decoration: none;
+        padding: 20px;
+    font-size: 21px;
+    position: relative;
+    top: 12px;
+    font-size: 22px;
 }
 #menu h1{
     font-size: 5em;
     padding: 3px;
     text-align: center;
     position: relative;
-    top: 1em;
+    top: 2.5em;
 }
 #menu h2{
     padding: 25px;
     text-align: center;
     position: relative;
-    top: 8em;
+    top: 11em;
 }
 header{
     background-color: lightgrey;
@@ -76,28 +85,109 @@ h1 {
     padding: 1em;
     font-size: 2.5em;
     position: relative;
-    top: -1em;
+    top: 0em;
 }
 #sobre img{
     float: left;
     width: 430px;
 }
 #musica{
-    border:solid 1px;
     float: left;
-    width: 35%;
-    padding: 30px;
-
+    border:solid 1px;
+    position: relative;
+    left: 10%;    
 }
 #series{
+    position: relative;
+    left: -10%;
     float: right;
     border:solid 1px;
-    width: 35%;
-    padding: 30px;
+    
 }
 #favoritos{
     clear: both;
     background-color: lightgrey;
+}
+/*criação dos cards*/
+.card{
+    float: left;
+    width: 389px;
+    height: 414px;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    border-radius: 2em;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.frente{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: tomato;
+    color: teal;
+    border-radius: 2em;
+}
+.tras{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color:tomato;
+    color: teal;
+    transform: rotateY(180deg);
+    border-radius: 2em;
+}
+.card h1{
+    position: relative;
+    top: 1em;
+    font-size: 5em;
+}
+.card h2{
+    text-align: center;
+    top: 1em;
+    position: relative;
+    font-size: 31px;
+}
+.card ul{
+    position: relative;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    left: 40%;
+    top: 3em;
+    font-size: 1.5em;
+}
+#flecha{
+    position: relative;
+    /* top: 23em; */
+    /* left: 33em; */
+    font-size: 37px;
+    width: 120px;
+    height: 120px;
+}
+/*animação setinha*/
+#flecha{
+    position: relative;
+    top: 2em;
+    margin-right: 17em;
+    position: relative;
+    top: 9em;
+    /* left: 12em; */
+    margin-left: 17em;
+}
+.arrow{
+    position: relative;
+    font-size: 48px;
+    text-align: center;
+    transform: rotate(90deg);
+    animation: arrows 1s infinite;
+}
+@keyframes arrows{
+    0%{top: 0em;}
+    50%{top:20px;}
+    100%{top: 0em;}
 }
 /*Mexendo com o footer*/
 footer{
@@ -109,6 +199,6 @@ footer{
     text-align: center;
     text-align: center;
     position: relative;
-    left: 43%;
-    top: -3EM;
+    left: 46%;
+    top: -3em;
 }

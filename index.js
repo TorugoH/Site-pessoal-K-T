@@ -7,5 +7,5 @@ function escrever(elemento) {
   }
   let titulodePrimeiroNivel=document.querySelector('h1')
   let titulodeSegundoNivel=document.querySelector('h2')
-  escrever(titulodePrimeiroNivel)
+  //escrever(titulodePrimeiroNivel)
   escrever(titulodeSegundoNivel)
