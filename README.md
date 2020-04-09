@@ -11,8 +11,8 @@ Somente as margens sendo zeradas para facilitar na hora de mexer na centralizaç
 - [x] Centraliza o titulo
 - [x] Estrutura basica do HTML
 # Difernciais que temos
-- O bagulho de letrinhas feito em JS
+- O efeito das letrinhas feito em JS
 - As animaçãos feitas com css
-- Um menu floatuante 
+- Um menu flutuante 
 - A barra de rolagem da horizontal esta estilizada
 - Links que levam ate a rede social da pessoa
