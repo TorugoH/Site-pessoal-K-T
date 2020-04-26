@@ -10,9 +10,9 @@ Somente as margens sendo zeradas para facilitar na hora de mexer na centralizaç
 - [X] Colocar margem esquerda e direita na pagina
 - [x] Centraliza o titulo
 - [x] Estrutura basica do HTML
-# Difernciais que temos
+# Diferenciais que temos
 - O efeito das letrinhas feito em JS
 - As animaçãos feitas com css
 - Um menu flutuante 
 - A barra de rolagem da horizontal esta estilizada
-- Links que levam ate a rede social da pessoa
+- Links que levam ate a rede social da k&T
